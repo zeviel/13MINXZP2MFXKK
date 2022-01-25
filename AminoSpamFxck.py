@@ -1,5 +1,5 @@
 import amino
-from threading import thread
+from threading import Thread
 from pyfiglet import figlet_format
 from colored import fore, style, attr
 attr(0)
@@ -16,7 +16,7 @@ for x, name in enumerate(clients.name, 1):
 	print(f"{x}.{name}")
 com_id = clients.comId[int(input("-- Select the community::: ")) - 1]
 sub_client = amino.SubClient(comId=com_id, profile=client.profile)
-chats = await sub_client.get_chat_threads(size=100)
+chats = sub_client.get_chat_threads(size=100)
 for z, title in enumerate(chats.title, 1):
 	print(f"{z}.{title}")
 chat_id = chats.chatId[int(input("-- Select the chat::: ")) - 1]
