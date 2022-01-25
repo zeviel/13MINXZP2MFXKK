@@ -10,7 +10,7 @@ print(figlet_format("aminospamfxck", font="gothic"))
 client = amino.Client()
 email = input("-- Email::: ")
 password = input("-- Password::: ")
-client.login(email=email, password=password
+client.login(email=email, password=password)
 clients = client.sub_clients(start=0, size=100)
 for x, name in enumerate(clients.name, 1):
 	print(f"{x}.{name}")
