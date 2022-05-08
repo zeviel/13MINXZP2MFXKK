@@ -6,7 +6,7 @@ attr(0)
 print(f"""{fore.SPRING_GREEN_3A + style.BOLD}
 Script by deluvsushi
 Github : https://github.com/deluvsushi""")
-print(figlet_format("aminospamfxck", font="gothic"))
+print(figlet_format("13MINXZP2MFXKK", font="gothic"))
 client = amino.Client()
 email = input("-- Email::: ")
 password = input("-- Password::: ")
