@@ -1,5 +1,5 @@
-# AminoSpamFxck
-AminoSpamFxck/Message spammer for amino
+# 13MINXZP2MFXKK
+Message spam bot for amino
 
 # Termux
 ```shell
@@ -9,7 +9,7 @@ AminoSpamFxck/Message spammer for amino
 - pip install colored
 - pip install pyfiglet
 - pip install amino.py
-- git clone https://github.com/deluvsushi/AminoSpamFxck
-- cd AminoSpamFxck
-- python AminoSpamFxck.py
+- git clone https://github.com/deluvsushi/13MINXZP2MFXKK
+- cd 13MINXZP2MFXKK
+- python 13MINXZP2MFXKK.py
 ```
