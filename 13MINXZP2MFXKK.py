@@ -4,8 +4,8 @@ from pyfiglet import figlet_format
 from colored import fore, style, attr
 attr(0)
 print(f"""{fore.SPRING_GREEN_3A + style.BOLD}
-Script by deluvsushi
-Github : https://github.com/deluvsushi""")
+Script by zeviel
+Github : https://github.com/zeviel""")
 print(figlet_format("13MINXZP2MFXKK", font="gothic"))
 client = amino.Client()
 email = input("-- Email::: ")
